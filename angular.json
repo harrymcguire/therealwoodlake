@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "therealwoodlake"
+    }
+  },
+  "defaultProject": "therealwoodlake",
+  "cli": {
+    "analytics": false
+  }
 }

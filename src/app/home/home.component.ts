@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  imgId = (Math.floor(Math.random() * 26) + 1);
+  imgId = (Math.floor(Math.random() * 19) + 1);
 
   constructor() { }
 

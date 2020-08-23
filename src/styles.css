@@ -4,6 +4,19 @@ body {
     color:#a7a7a7;
     font-family:Yrsa,serif
    }
+
+app-pictures {
+    width: 151%;
+    height: 807%;
+    margin-left: -21%;
+}
+@media only screen and (max-width:600px) {
+    app-pictures {
+        width: 100%;
+        height: 433%;
+        margin-left: 0;
+    }
+   }
    h2 {
     font-size:40px
    }
