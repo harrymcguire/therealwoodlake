@@ -8,7 +8,8 @@ import { PicturesComponent } from './pictures/pictures.component';
 import { ContactComponent } from './contact/contact.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { GalleryModule } from 'ng-gallery';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; 
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { EpkComponent } from './epk/epk.component'; 
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     HomeComponent,
     PicturesComponent,
     ContactComponent,
-    NavbarComponent
+    NavbarComponent,
+    EpkComponent
   ],
   imports: [
     BrowserModule,
